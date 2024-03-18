@@ -1,0 +1,9 @@
+# Ignore logs files
+*.log
+*.tmp
+
+# Ignore env
+.env
+.ve
+env
+ve

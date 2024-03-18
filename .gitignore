@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore logs files
 *.log
 *.tmp
@@ -6,4 +7,14 @@
 .env
 .ve
 env
+=======
+# Ignore logs files
+*.log
+*.tmp
+
+# Ignore env
+.env
+.ve
+env
+>>>>>>> 8c40da74dca48425012df86553b49ed0e17b7159
 ve

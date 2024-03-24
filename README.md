@@ -18,15 +18,15 @@ To train and test the SVM model, run `main.py`. This script utilizes the provide
 
 ```bash
 python main.py
+```
 Prediction
 For making predictions on new audio recordings, utilize predict.py. This script loads the trained SVM model from the .pkl file and prompts the user to input the path of the audio file to be classified as real or replayed.
 
-bash
-Copy code
+```bash
 python predict.py
-Contributors
-Wali Muhammad Ahmad
-License
+```
 
+## License
 
+## Contributor
 Feel free to contribute, report issues, or suggest improvements!

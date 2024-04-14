@@ -12,6 +12,14 @@ The `utilities` directory houses Python scripts for managing and analyzing the a
 
 ## Usage
 
+### Installation
+
+To install the required packages in venv, run the following command:
+
+```bash
+pip install numpy pandas librosa scikit-learn joblib
+```
+
 ### Training and Testing
 
 To train and test the SVM model, run `main.py`. This script utilizes the provided dataset to train the model and saves the trained model files in `.pkl` format.
@@ -26,7 +34,18 @@ For making predictions on new audio recordings, utilize predict.py. This script 
 python predict.py
 ```
 
+### UI
+
+The repository also includes a user interface (UI) [only the UI - still under work] for easy integration. To use the UI, run flaskApp.py and navigate to http://localhost:5000 in your web browser.
+
+```bash
+python flaskAPP.py
+```
+
 ## License
 
+This project is licensed under the Eclipse Public License 2.0 (EPL-2.0) - see the LICENSE file for details.
+
 ## Contributor
+
 Feel free to contribute, report issues, or suggest improvements!
